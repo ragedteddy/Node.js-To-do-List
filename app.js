@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb+srv://admin-nikhil2:mongonikhil2@cluster0.vnuzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://<admin>:<password>@cluster0.vnuzq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 
 const itemsSchema = {
